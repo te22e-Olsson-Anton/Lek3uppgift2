@@ -1,0 +1,59 @@
+.länkar
+{
+    border: 2px solid red;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box
+{
+    background-color: aqua;
+    border: 2px dotted black;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#länk
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+
+    font-size: 20px;
+}
+.rubriker
+{
+    border: 2px inset tomato;
+}
+#rubrik1
+{
+    background-color: yellow;
+    border: 2px dotted black;
+    padding: 40px;
+    width: 49%;
+    text-align: center;
+}
+#rubrik2
+{
+    background-color: blanchedalmond;
+    border: 2px dotted black;
+    padding: 40px;
+    width: 49%;
+    text-align: center;
+}
+.rubriker
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+
+}
+.lorem
+{
+    border: solid yellow;
+}
