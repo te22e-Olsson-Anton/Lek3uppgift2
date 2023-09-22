@@ -8,6 +8,8 @@
     border: 3px solid #D6001C;
     border-radius: 15px;
     margin-bottom: 20px;
+
+    flex-direction: column;
     
 }
 img
@@ -30,13 +32,65 @@ img
 }
 .text
 {
+    display:flex;
+    flex-direction: column;
     border: 3px solid #D6001C; 
-    border-radius: 15px;
-    margin-right: 150px;
-    margin-left: 200px;
+    border-radius: 5px;
+    
+    
+    
 }
 .bilder
 {
-    display: flex;
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    border: 3px solid #D6001C;
+    border-radius: 5px;
+
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     
+    
+}
+.img
+{
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    
+}
+.länkar
+{
+    border: 3px solid #D6001C;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.nedre
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.gran
+{
+    border: 3px solid #D6001C;
+    border-radius: 5px;
+}
+.mail
+{
+    border: solid 3px #D6001C;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
 }
